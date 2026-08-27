@@ -1,20 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package org.pltres.system;
 
-/**
- *
- * @author informatica
- */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+ 
+public class Main extends Application {
+ 
+    @Override
+    public void start(Stage stage) {
+        VBox root = new VBox(15);
+        root.setAlignment(Pos.CENTER);
+        Scene scene = new Scene(root, 1000, 800);
+        stage.setTitle("PLTRES");
+        stage.setScene(scene);
+        stage.show();
     }
-    
+ 
+    public static void main(String[] args) {
+        launch(args);
+    }
 }
