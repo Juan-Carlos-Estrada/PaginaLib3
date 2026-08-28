@@ -19,7 +19,7 @@
         <URL value="@/org/pltres/view/style/navegacionrolesview.css" />
     </stylesheets>
    <children>
-      <BorderPane layoutX="10.0" prefHeight="553.0" prefWidth="859.0" styleClass="main-dashboard" stylesheets="@../../../../../../ex/MKAALibreriaConsoleApp/src/org/mkaa/view/style/menuprincipaldashboard.css">
+      <BorderPane layoutX="10.0" prefHeight="553.0" prefWidth="859.0" styleClass="main-dashboard" stylesheets="@../../../../../../bim4/PaginaLibre3/src/org/pltres/view/style/navegacionrolesview.css">
          <top>
             <VBox prefHeight="110.0" prefWidth="859.0" style="-fx-background-color: 0100;" styleClass="header-panel" BorderPane.alignment="CENTER">
                <padding>
@@ -44,7 +44,7 @@
                   <Insets bottom="15" left="30" right="30" top="15" />
                </padding>
                <children>
-                  <Button fx:id="btnCerrarSesion" onAction="#handleSalir" prefHeight="38" prefWidth="140" styleClass="btn-danger" text="🚪 Cerrar Sesión" />
+                  <Button prefHeight="38" prefWidth="140" styleClass="btn-danger" text="🚪 Cerrar Sesión" />
                </children>
             </HBox>
          </bottom>
@@ -75,7 +75,7 @@
                                     <Label styleClass="card-description" text="Directorio de escritores y biografías" />
                                  </children>
                               </VBox>
-                              <Button onAction="#handleAutores" prefHeight="38" prefWidth="180" style="-fx-background-color: #D4CECD;" styleClass="btn-card" text="Ingresar a Autores" />
+                              <Button prefHeight="38" prefWidth="180" style="-fx-background-color: #D4CECD;" styleClass="btn-card" text="Ingresar a Autores" />
                            </children>
                         </VBox>
                         <VBox alignment="CENTER" prefHeight="82.0" prefWidth="259.0" spacing="12" styleClass="module-card" GridPane.columnIndex="2">
@@ -87,7 +87,7 @@
                                     <Label prefHeight="37.0" prefWidth="161.0" styleClass="card-description" text="Casas editoras y distribuidores" />
                                  </children>
                               </VBox>
-                              <Button onAction="#handleEditoriales" prefHeight="38" prefWidth="180" style="-fx-background-color: #D4CECD;" styleClass="btn-card" text="Ver Editoriales" />
+                              <Button prefHeight="38" prefWidth="180" style="-fx-background-color: #D4CECD;" styleClass="btn-card" text="Ver Editoriales" />
                            </children>
                         </VBox>
                         <VBox alignment="CENTER" prefHeight="82.0" prefWidth="260.0" spacing="12" styleClass="module-card" GridPane.columnIndex="1" GridPane.rowIndex="2">
@@ -98,7 +98,7 @@
                                     <Label styleClass="card-description" text="Clasificación de géneros literarios" />
                                  </children>
                               </VBox>
-                              <Button onAction="#handleCategorias" prefHeight="38" prefWidth="180" style="-fx-background-color: #D4CECD;" styleClass="btn-card" text="Ver Categorías" />
+                              <Button prefHeight="38" prefWidth="180" style="-fx-background-color: #D4CECD;" styleClass="btn-card" text="Ver Categorías" />
                            </children>
                         </VBox>
                      </children>
