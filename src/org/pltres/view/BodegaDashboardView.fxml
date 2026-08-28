@@ -13,7 +13,8 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1">
+
+<BorderPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.pltres.view.BodegaDashboardViewController">
    
    <top>
       <AnchorPane prefHeight="60.0" style="-fx-background-color: #11111B; -fx-border-color: #313244; -fx-border-width: 0 0 1 0;" BorderPane.alignment="CENTER">

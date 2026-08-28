@@ -4,52 +4,34 @@
 
 }
 
-
-
 .label {
-
     -fx-text-fill: #1e293b;
-
     -fx-font-size: 14px;
-
     -fx-font-family: "Segoe UI", sans-serif;
-
 }
-
-
 
 
 
 .button {
 
     -fx-background-color: #4f46e5;
-
     -fx-text-fill: #ffffff;
-
     -fx-font-size: 13px;
-
     -fx-font-weight: 600;
-
     -fx-padding: 8px 16px;
-
     -fx-background-radius: 6px;
-
     -fx-cursor: hand;
-
 }
 
 
 
 .button:hover {
-
     -fx-background-color: #4338ca;
-
 }
 
 
 
 .button:armed {
-
     -fx-background-color: #3730a3;
 
 } 
