@@ -1,0 +1,168 @@
+.root {
+    -fx-background-color: #14152b;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.mainFxmlClass {
+    -fx-background-color: #14152b;
+}
+
+/* ---------------------------------------------------------
+   Contenedor principal
+   --------------------------------------------------------- */
+.main-dashboard {
+    -fx-background-color: #14152b;
+}
+
+/* ---------------------------------------------------------
+   Encabezado (header-panel)
+   --------------------------------------------------------- */
+.header-panel {
+    -fx-background-color: #17182f;
+    -fx-border-color: transparent transparent #2f3050 transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.header-title {
+    -fx-text-fill: #e6e6f0;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.header-subtitle {
+    -fx-text-fill: #8f90ac;
+    -fx-font-size: 12px;
+}
+
+/* ---------------------------------------------------------
+   Pie de página (footer-panel)
+   --------------------------------------------------------- */
+.footer-panel {
+    -fx-background-color: #17182f;
+    -fx-border-color: #2f3050 transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}
+
+/* Botón "Cerrar Sesión" - contorno rojo, como en la captura */
+.btn-danger {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ff6b81;
+    -fx-border-color: #ff6b81;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.btn-danger:hover {
+    -fx-background-color: rgba(255, 107, 129, 0.15);
+}
+
+/* ---------------------------------------------------------
+   Tarjetas de módulo (module-card)
+   --------------------------------------------------------- */
+.module-card {
+    -fx-background-color: #1e1f3d;
+    -fx-background-radius: 12px;
+    -fx-border-color: #2f3050;
+    -fx-border-radius: 12px;
+    -fx-border-width: 1px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.35), 10, 0, 0, 4);
+}
+
+.module-card:hover {
+    -fx-border-color: #4a6bff;
+    -fx-effect: dropshadow(gaussian, rgba(74,107,255,0.35), 12, 0, 0, 4);
+}
+
+.card-icon {
+    -fx-font-size: 26px;
+}
+
+.card-title {
+    -fx-text-fill: #e6e6f0;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.card-description {
+    -fx-text-fill: #8f90ac;
+    -fx-font-size: 11px;
+    -fx-wrap-text: true;
+}
+
+/* Botón dentro de la tarjeta (btn-card) - azul, como "Ingresar a Autores" */
+.btn-card {
+    -fx-background-color: #2b3a67;
+    -fx-text-fill: #9cc2ff;
+    -fx-background-radius: 6px;
+    -fx-border-color: #3d5aa8;
+    -fx-border-radius: 6px;
+    -fx-border-width: 1px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.btn-card:hover {
+    -fx-background-color: #35447a;
+    -fx-text-fill: #ffffff;
+}
+
+/* Variante verde, útil para módulos tipo "Módulo 1..4" */
+.btn-card-success {
+    -fx-background-color: #1f3d33;
+    -fx-text-fill: #7ee8a8;
+    -fx-background-radius: 6px;
+    -fx-border-color: #2f6b52;
+    -fx-border-radius: 6px;
+    -fx-border-width: 1px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.btn-card-success:hover {
+    -fx-background-color: #29513f;
+    -fx-text-fill: #ffffff;
+}
+
+/* ---------------------------------------------------------
+   Barra lateral de navegación (opcional, si la usas)
+   --------------------------------------------------------- */
+.sidebar {
+    -fx-background-color: #17182f;
+    -fx-border-color: transparent #2f3050 transparent transparent;
+    -fx-border-width: 0 1 0 0;
+}
+
+.sidebar-link {
+    -fx-text-fill: #b7b8d1;
+    -fx-font-size: 13px;
+    -fx-padding: 8px 12px;
+    -fx-cursor: hand;
+}
+
+.sidebar-link:hover, .sidebar-link-active {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #232449;
+    -fx-background-radius: 6px;
+}
+
+/* ---------------------------------------------------------
+   Banner de alerta (tipo "Alertas de Stock Bajo")
+   --------------------------------------------------------- */
+.alert-banner {
+    -fx-background-color: #2a1830;
+    -fx-border-color: #ff5c8a;
+    -fx-border-width: 1.5px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 12px;
+}
+
+.alert-banner-text {
+    -fx-text-fill: #ff8fae;
+    -fx-font-weight: bold;
+}
+}
